@@ -5,12 +5,13 @@
     --primary-color: #1A7FBE;
     --secondary-color: #5B7FB9;
     --tertiary-color: #C27FB1;
-    --background-color: #1B263B;
+    --background-color: #DFDFDF;
     --highlight-color: #FC440F;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 

@@ -15,9 +15,9 @@ menuOpen.addEventListener('click', () => {
     menuButton.textContent = 'close';
 
     asideMenu.appendChild(menuButton);
+    asideMenu.appendChild(menuLogo);
     asideMenu.appendChild(navMenu);
     navMenu.appendChild(ulList);
-    asideMenu.appendChild(menuLogo);
 
     menuLogo.setAttribute('src', '/assets/img/logo-reprogramese/preferencial-horizontal.png');
     menuLogo.setAttribute('alt', 'Logo Reprograme-se');
