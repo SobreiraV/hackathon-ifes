@@ -24,10 +24,14 @@ menuOpen.addEventListener('click', () => {
 
     const navLinks = [
         { text: 'Início', href: '#' },
-        { text: 'O Programa', href: '#' },
+        { text: 'O Programa', href: '#programa' },
         { text: 'Como funciona', href: '#' },
         { text: 'Inscrição', href: '#' },
-        { text: 'Contato', href: '#' }
+        { text: 'Contato', href: '#' },
+        { text: 'Agenda de eventos', href: '#' },
+        { text: 'Notícias', href: '#' },
+        { text: 'Dúvidas', href: '#' },
+        { text: 'Parceiros', href: '#' },
     ];
 
     navLinks.forEach(navLink => {
