@@ -8,3 +8,16 @@
     background-color: (--background-color);
     padding: 15px;
 }
+
+.card {
+    width: calc(60% - 1rem);
+    background-color: white;
+    display: inline-block;
+    
+}
+
+.card img {
+    width: 100%;
+    
+}
+
