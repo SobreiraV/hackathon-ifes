@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin: 6px;
+    background-color: var(--background-color);
+}
+
+.areadireita {
+    /* largura de 62% da área de visualização */
+    width: 62vw;
+    /*  posicionamento relativo */
+    position: relative;
+    /* afastamento esquerdo de 18% */
+    margin-left: 18vw;
+    background-color: (--background-color);
+    padding: 15px;
+}
