@@ -1,5 +1,6 @@
 @import "header.css";
-@import  "utilidades.css";
+@import "home.css";
+@import "utilidades.css";
 
 :root {
     --primary-color: #1A7FBE;
@@ -15,3 +16,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.section {
+    padding: 0px 20px;
+}
