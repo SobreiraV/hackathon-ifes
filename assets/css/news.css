@@ -11,6 +11,7 @@
     position: relative;
     cursor: pointer;
     margin-bottom: 10px;
+    box-shadow: 2px 2px 1px var(--tertiary-color);
 }
 
 .recent-news-cover {
@@ -24,7 +25,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(91, 127, 185, 0.9); /*cor secundaria in rgb*/
     color: #fff;
 }
 
