@@ -1,6 +1,22 @@
 header {
-    display: flex;
     align-items: center;
+    background-color: var(--background-color);
+    height: 70px;
+}
+
+.header_social {
+    height: 35px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+    display: none;
+}
+
+.header_menu {
+    height: 62px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    display: none;
 }
 
 .header-logo {
@@ -69,7 +85,7 @@ header {
 .aside-menu nav ul li a:active {
     background: linear-gradient(to right, var(--secondary-color), var(--primary-color));
 }
-    
+
 
 .header-nav {
     display: flex;
@@ -92,5 +108,21 @@ header {
 }
 
 @media screen and (min-width: 600px) {
-   
+
+    header {
+        height: auto;
+    }
+
+    #hamburger_menu-open {
+        top: 55px;
+    }
+
+    .header-logo {
+        top: 36px;
+    }
+
+    .header_social,
+    .header_menu {
+        display: block;
+    }
 }
