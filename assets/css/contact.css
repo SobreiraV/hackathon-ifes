@@ -1,18 +1,22 @@
 .section_contact {
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: var(--background-color);
 }
-
 
 .form-input:focus {
     outline: none;
     border: 2px solid var(--secondary-color);
 }
 
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-submit {
-    margin-top: 20px;
     background-color: transparent;
-    border: 2px solid var(--secondary-color);
+    border: none;
     border-radius: 10px;
     color: var(--primary-color);
     cursor: pointer;
@@ -30,4 +34,17 @@
 
 .btn-submit:active {
     transform: scale(.9);
+}
+
+@media screen and (min-width: 600px) {
+
+    .contact_section-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact_section-form form {
+        width: 100%;
+        max-width: 600px;
+    }
 }

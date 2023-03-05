@@ -296,19 +296,25 @@
         <section class="section_contact section">
             <div class="contact_section-form">
                 <form class="needs-validation" novalidate action="mailto:contato@reprograme-se.org.br?subject=Form Submission" method="post">
-                    <div class="form-floating">
+                    <div class="form-floating mb-3">
                         <input class="form-control" id="name" type="text" placeholder=" " name="name" minlength="3"
                             maxlength="50" required>
                         <label for="name">Nome:</label>
+                        <div class="invalid-feedback">
+                            Informe o seu nome.
+                        </div>
                     </div>
 
-                    <div class="form-floating">
+                    <div class="form-floating mb-3">
                         <input class="form-control" id="email" type="email" placeholder=" " name="email" minlength="5"
                             maxlength="50" required>
                         <label for="email">Email:</label>
+                        <div class="invalid-feedback">
+                            Informe o seu email.
+                        </div>
                     </div>
 
-                    <div class="form-floating">
+                    <div class="form-floating mb-3">
                         <input class="form-control" id="subject" type="text" placeholder=" " name="subject"
                             list="subjects" minlength="5" maxlength="50" required>
                         <datalist id="subjects">
@@ -319,15 +325,23 @@
                             <option value="Outro"></option>
                         </datalist>
                         <label for="subject">Assunto:</label>
+                        <div class="invalid-feedback">
+                            Selecione um assunto.
+                        </div>
                     </div>
 
-                    <div class="form-floating">
-                        <textarea class="form-control form-input" id="message" style="height: 200px;" placeholder=" "
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" style="height: 200px;" placeholder=" "
                             name="message" minlength="5" maxlength="1000" required></textarea>
                         <label for="message">Mensagem:</label>
+                        <div class="invalid-feedback">
+                            Escreva sua mensagem.
+                        </div>
                     </div>
 
+                    <div class="btn_container">
                     <button class="btn-submit" type="submit">Enviar</button>
+                    </div>
                 </form>
             </div>
         </section>
@@ -337,7 +351,7 @@
     </footer>
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/jump-arrow.js"></script>
-    <script src="https://getbootstrap.com/docs/5.2/forms/validation/"></script>
+    <script src="/assets/js/form-validate.js"></script>
 </body>
 
 </html>
