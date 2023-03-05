@@ -57,7 +57,7 @@ menuOpen.addEventListener('click', () => {
         { text: 'Agenda', href: '#' },
         { text: 'Dúvidas', href: '/assets/pages/faq.html' },
         { text: 'Fale conosco', href: '#contact' },
-        { text: 'Parceiros', href: '#' }
+        { text: 'Parceiros', href: '#partners' }
     ];
 
     navLinks.forEach(navLink => {
