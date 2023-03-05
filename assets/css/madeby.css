@@ -1,0 +1,17 @@
+.section_madeby {
+    background-color: var(--background-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.madeby-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.madeby-logo {
+    width: 200px;
+}
