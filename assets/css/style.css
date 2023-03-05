@@ -5,6 +5,7 @@
 @import "madeby.css";
 @import "contact.css";
 @import "parcerias.css";
+@import "footer.css";
 @import "utilidades.css";
 
 :root {
@@ -12,6 +13,7 @@
     --secondary-color: #5B7FB9;
     --tertiary-color: #C27FB1;
     --background-color: #DFDFDF;
+    --alt-background-color:#1E2019;
     --highlight-color: #FC440F;
 }
 
