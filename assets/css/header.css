@@ -139,6 +139,7 @@ header {
     top: 20px;
     left: 20px;
     font-weight: 800;
+    font-family: 'material symbols outlined' !important;
 }
 
 #hamburger_menu-close {
@@ -146,6 +147,7 @@ header {
     top: 120px;
     right: 20px;
     font-weight: 800;
+    font-family: 'material symbols outlined' !important;
 }
 
 .accessibility {
