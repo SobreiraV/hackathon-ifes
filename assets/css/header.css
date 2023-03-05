@@ -91,6 +91,7 @@ header {
     align-items: center;
     justify-content: center;
     white-space: nowrap;
+    min-width: fit-content;
 }
 
 .menu-call-to-action:hover {
@@ -147,6 +148,18 @@ header {
     font-weight: 800;
 }
 
+.accessibility {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.accessibility button {
+    width: 25px;
+    border: none;
+    box-shadow: 2px 2px 3px var(--secondary-color);
+}
+
 .aside-menu-logo {
     width: 200px;
 }
@@ -197,6 +210,11 @@ header {
     #hamburger_menu-open {
         top: 55px;
     }
+
+    .accessibility {
+    top: 5px;
+    left: 20px;
+}
 
     .header-logo {
         top: 36px;
