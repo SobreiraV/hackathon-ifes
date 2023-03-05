@@ -54,7 +54,7 @@ menuOpen.addEventListener('click', () => {
         { text: 'Como funciona', href: '#funciona' },
         { text: 'Inscrição', href: '#inscricao' },
         { text: 'Notícias', href: '#news' },
-        { text: 'Agenda', href: '#' },
+        { text: 'Agenda', href: '/assets/pages/agenda.html' },
         { text: 'Dúvidas', href: '/assets/pages/faq.html' },
         { text: 'Fale conosco', href: '#contact' },
         { text: 'Parceiros', href: '#partners' }
