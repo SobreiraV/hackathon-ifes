@@ -132,6 +132,7 @@ header {
     z-index: 2;
 }
 
+#hamburger_menu_other_pages-open,
 #hamburger_menu-open {
     position: absolute;
     top: 20px;
@@ -192,6 +193,7 @@ header {
         height: auto;
     }
 
+    #hamburger_menu_other_pages-open,
     #hamburger_menu-open {
         top: 55px;
     }

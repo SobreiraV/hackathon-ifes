@@ -1,4 +1,4 @@
-const menuOpen = document.getElementById('hamburger_menu-open');
+const menuOpen = document.getElementById('hamburger_menu_other_pages-open');
 
 menuOpen.addEventListener('click', () => {
     const blurBackground = document.createElement('div');
@@ -22,7 +22,7 @@ menuOpen.addEventListener('click', () => {
     linkedinIcon.classList.add('aside-social-icon');
     instagramIcon.classList.add('aside-social-icon');
     youtubeIcon.classList.add('aside-social-icon');
-    
+
     menuButton.textContent = 'close';
 
     document.body.appendChild(blurBackground);
@@ -49,7 +49,7 @@ menuOpen.addEventListener('click', () => {
     youtubeLink.setAttribute('href', '#');
 
     const navLinks = [
-        { text: 'Início', href: '#' },
+        { text: 'Início', href: '/index.html' },
         { text: 'O Programa', href: '#programa' },
         { text: 'Como funciona', href: '#' },
         { text: 'Inscrição', href: '#' },
