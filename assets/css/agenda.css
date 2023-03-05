@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #37474F;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.month {
+    margin-bottom: 30px;
+}
+
+h2 {
+    background-color: #37474F;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #DDD;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #EEE;
+}
+
+.events article {
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.destaque{
+background-color: lightblue;
+}
+
+.destaque :hover {
+    background: linear-gradient(140deg, var(--primary-color), var(--tertiary-color));
+    color: var(--background-color);
+}
+
+footer {
+    background-color: #37474F;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
