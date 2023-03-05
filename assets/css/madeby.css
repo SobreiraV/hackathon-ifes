@@ -1,9 +1,3 @@
-.section_madeby {
-    background-color: var(--background-color);
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
 .madeby-logos {
     display: flex;
     justify-content: space-around;
