@@ -22,43 +22,43 @@
             <a href="#"><img class="social-icon" src="/assets/img/icon-social/linkedin.png" alt=""></a>
             <a href="#"><img class="social-icon" src="/assets/img/icon-social/instagram.png" alt=""></a>
             <a href="#"><img class="social-icon" src="/assets/img/icon-social/youtube.png" alt=""></a>
-            <a href="#">Fale conosco</a>
+            <a href="#contact">Fale conosco</a>
             <a href="#">Agenda</a>
-            <a href="#">Dúvidas</a>
+            <a href="/assets/pages/faq.html">Dúvidas</a>
             <a href="#">Alumni</a>
             <a href="#">Parceiros</a>
         </div>
         <div class="header_menu">
             <nav class="header-nav">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">O Programa</a></li>
-                    <li><a href="#">Notícias</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#programa">O Programa</a></li>
+                    <li><a href="#news">Notícias</a></li>
+                    <li><a href="#contact">Contato</a></li>
 
                 </ul>
             </nav>
-            <a class="menu-call-to-action" href="">INSCREVA-SE!</a>
+            <a class="menu-call-to-action" href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se">INSCREVA-SE!</a>
         </div>
         <div class="material-symbols-outlined hamburguer_menu-button unselectable" id="hamburger_menu-open">menu</div>
         <img class="header-logo" src="/assets/img/logo-reprogramese/preferencial-horizontal.png"
             alt="Logo Reprograme-se">
+
+        <div class="accessibility">
+            <button id="font-size-increase" title="Aumentar tamanho da fonte">A+</button>
+            <button id="font-size-decrease" title="Diminuir tamanho da fonte">A-</button>
+        </div>
     </header>
 
-    <div class="accessibility">
-        <button id="font-size-increase" title="Aumentar tamanho da fonte">A+</button>
-        <button id="font-size-decrease" title="Diminuir tamanho da fonte">A-</button>
-      </div>
-
     <main>
-        <section class="section_home section">
+        <section class="section_home section" id="home">
             <div class="home_main_text">
                 <h1>Reprograme-se</h1>
                 <p>Capacitação e qualificação profissional para jovens e adultos que desejam ingressar ou
                     retornar ao mercado de trabalho.</p>
             </div>
             <img class="home_pic" src="/assets/img/mockups/Cabelos-cacheados-apontando-logo.png" alt="">
-            <div class="home-link"><a href="#">SAIBA MAIS</a></div>
+            <div class="home-link"><a href="#programa">SAIBA MAIS</a></div>
             <div class="home_arrow">
                 <span class="material-symbols-outlined down_arrow unselectable" id="jumping-arrow">
                     keyboard_double_arrow_down
@@ -123,7 +123,7 @@
 
         <!--Seção da Inscrição-->
         <section class="container">
-            <hr id="Inscrição>
+            <hr id="inscricao">
                 <div class=" image">
             <img src="assets/img/mockups/homem-camisa.png" class="home_pic" alt="">
             </div>
@@ -134,7 +134,7 @@
                 </p>
                 <br>
                 <div class="home-link"><a
-                        href="ttps://sigaa.ifes.edu.br/sigaa/public/processo_seletivo/lista.jsf?aba=p-processo&nivel=F&utm_campaign=Reprograme-se">INSCREVA-SE</a>
+                        href="https://cachoeiro.ifes.edu.br/processosseletivos/alunos/16788-edital-25-2022-processo-de-selecao-de-estudantes-para-o-curso-do-projeto-reprograme-se">INSCREVA-SE</a>
                 </div>
 
             </div>
@@ -142,7 +142,7 @@
         </section>
 
 
-        <section class="section_news section">
+        <section class="section_news section" id="news">
             <h2>Últimas Notícias</h2>
             <div class="news_container">
                 <article class="recent-news-container">
@@ -298,9 +298,11 @@
             </div>
         </section>
 
-        <section class="section_contact section">
+        <section class="section_contact section" id="contact">
+            <h2>Contato</h2>
             <div class="contact_section-form">
-                <form class="needs-validation" novalidate action="mailto:contato@reprograme-se.org.br?subject=Form Submission" method="post">
+                <form class="needs-validation" novalidate
+                    action="mailto:contato@reprograme-se.org.br?subject=Form Submission" method="post">
                     <div class="form-floating mb-3">
                         <input class="form-control" id="name" type="text" placeholder=" " name="name" minlength="3"
                             maxlength="50" required>
@@ -345,7 +347,7 @@
                     </div>
 
                     <div class="btn_container">
-                    <button class="btn-submit" type="submit">Enviar</button>
+                        <button class="btn-submit" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -354,7 +356,7 @@
     <footer>
 
     </footer>
-    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/menu-script.js"></script>
     <script src="/assets/js/jump-arrow.js"></script>
     <script src="/assets/js/acessibilidade.js"></script>
     <script src="/assets/js/form-validate.js"></script>

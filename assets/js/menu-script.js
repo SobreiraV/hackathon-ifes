@@ -49,14 +49,14 @@ menuOpen.addEventListener('click', () => {
     youtubeLink.setAttribute('href', '#');
 
     const navLinks = [
-        { text: 'Início', href: '#' },
+        { text: 'Início', href: '#home' },
         { text: 'O Programa', href: '#programa' },
-        { text: 'Como funciona', href: '#' },
-        { text: 'Inscrição', href: '#' },
-        { text: 'Notícias', href: '#' },
+        { text: 'Como funciona', href: '#funciona' },
+        { text: 'Inscrição', href: '#inscricao' },
+        { text: 'Notícias', href: '#news' },
         { text: 'Agenda', href: '#' },
         { text: 'Dúvidas', href: '/assets/pages/faq.html' },
-        { text: 'Fale conosco', href: '#' },
+        { text: 'Fale conosco', href: '#contact' },
         { text: 'Parceiros', href: '#' }
     ];
 

@@ -50,13 +50,13 @@ menuOpen.addEventListener('click', () => {
 
     const navLinks = [
         { text: 'Início', href: '/index.html' },
-        { text: 'O Programa', href: '#programa' },
-        { text: 'Como funciona', href: '#' },
-        { text: 'Inscrição', href: '#' },
-        { text: 'Notícias', href: '#' },
+        { text: 'O Programa', href: '/index.html#programa' },
+        { text: 'Como funciona', href: '/index.html#funciona' },
+        { text: 'Inscrição', href: '/index.html#inscricao' },
+        { text: 'Notícias', href: '/index.html#news' },
         { text: 'Agenda', href: '#' },
         { text: 'Dúvidas', href: '/assets/pages/faq.html' },
-        { text: 'Fale conosco', href: '#' },
+        { text: 'Fale conosco', href: '/index.html#contact' },
         { text: 'Parceiros', href: '#' }
     ];
 
