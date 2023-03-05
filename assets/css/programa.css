@@ -28,3 +28,42 @@
     
 }
 
+:root {
+  --primary-color: #1A7FBE;
+  --secondary-color: #5B7FB9;
+  --tertiary-color: #C27FB1;
+  --background-color: #DFDFDF;
+  --highlight-color: #FC440F;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .text {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  .image {
+    flex: 1;
+  }
+
+.card {
+    width: calc(45% - 1rem);
+    display: inline-block;
+    
+}
+
+.card img {
+    width: 100%;
+    
+}
+
+.funciona{
+   border: 7x solid;
+}
