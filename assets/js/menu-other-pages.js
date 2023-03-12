@@ -37,27 +37,27 @@ menuOpen.addEventListener('click', () => {
     instagramLink.appendChild(instagramIcon);
     youtubeLink.appendChild(youtubeIcon);
 
-    menuLogo.setAttribute('src', '/assets/img/logo-reprogramese/preferencial-horizontal.png');
+    menuLogo.setAttribute('src', './assets/img/logo-reprogramese/preferencial-horizontal.png');
     menuLogo.setAttribute('alt', 'Logo Reprograme-se');
 
-    linkedinIcon.setAttribute('src', '/assets/img/icon-social/linkedin.png');
-    instagramIcon.setAttribute('src', '/assets/img/icon-social/instagram.png');
-    youtubeIcon.setAttribute('src', '/assets/img/icon-social/youtube.png');
+    linkedinIcon.setAttribute('src', './assets/img/icon-social/linkedin.png');
+    instagramIcon.setAttribute('src', './assets/img/icon-social/instagram.png');
+    youtubeIcon.setAttribute('src', './assets/img/icon-social/youtube.png');
 
     linkedinLink.setAttribute('href', '#');
     instagramLink.setAttribute('href', '#');
     youtubeLink.setAttribute('href', '#');
 
     const navLinks = [
-        { text: 'Início', href: '/index.html' },
-        { text: 'O Programa', href: '/index.html#programa' },
-        { text: 'Como funciona', href: '/index.html#funciona' },
-        { text: 'Inscrição', href: '/index.html#inscricao' },
-        { text: 'Notícias', href: '/index.html#news' },
-        { text: 'Agenda', href: '/assets/pages/agenda.html' },
-        { text: 'Dúvidas', href: '/assets/pages/faq.html' },
-        { text: 'Fale conosco', href: '/index.html#contact' },
-        { text: 'Parceiros', href: '/index.html#partners' }
+        { text: 'Início', href: './index.html' },
+        { text: 'O Programa', href: './index.html#programa' },
+        { text: 'Como funciona', href: './index.html#funciona' },
+        { text: 'Inscrição', href: './index.html#inscricao' },
+        { text: 'Notícias', href: './index.html#news' },
+        { text: 'Agenda', href: './assets/pages/agenda.html' },
+        { text: 'Dúvidas', href: './assets/pages/faq.html' },
+        { text: 'Fale conosco', href: './index.html#contact' },
+        { text: 'Parceiros', href: './index.html#partners' }
     ];
 
     navLinks.forEach(navLink => {

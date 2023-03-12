@@ -37,12 +37,12 @@ menuOpen.addEventListener('click', () => {
     instagramLink.appendChild(instagramIcon);
     youtubeLink.appendChild(youtubeIcon);
 
-    menuLogo.setAttribute('src', '/assets/img/logo-reprogramese/preferencial-horizontal.png');
+    menuLogo.setAttribute('src', './assets/img/logo-reprogramese/preferencial-horizontal.png');
     menuLogo.setAttribute('alt', 'Logo Reprograme-se');
 
-    linkedinIcon.setAttribute('src', '/assets/img/icon-social/linkedin.png');
-    instagramIcon.setAttribute('src', '/assets/img/icon-social/instagram.png');
-    youtubeIcon.setAttribute('src', '/assets/img/icon-social/youtube.png');
+    linkedinIcon.setAttribute('src', './assets/img/icon-social/linkedin.png');
+    instagramIcon.setAttribute('src', './assets/img/icon-social/instagram.png');
+    youtubeIcon.setAttribute('src', './assets/img/icon-social/youtube.png');
 
     linkedinLink.setAttribute('href', '#');
     instagramLink.setAttribute('href', '#');
@@ -54,8 +54,8 @@ menuOpen.addEventListener('click', () => {
         { text: 'Como funciona', href: '#funciona' },
         { text: 'Inscrição', href: '#inscricao' },
         { text: 'Notícias', href: '#news' },
-        { text: 'Agenda', href: '/assets/pages/agenda.html' },
-        { text: 'Dúvidas', href: '/assets/pages/faq.html' },
+        { text: 'Agenda', href: './assets/pages/agenda.html' },
+        { text: 'Dúvidas', href: './assets/pages/faq.html' },
         { text: 'Fale conosco', href: '#contact' },
         { text: 'Parceiros', href: '#partners' }
     ];
