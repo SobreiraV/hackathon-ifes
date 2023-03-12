@@ -1,12 +1,12 @@
-@import "header.css";
-@import "home.css";
-@import "news.css";
-@import "testimonials.css";
-@import "madeby.css";
-@import "contact.css";
-@import "parcerias.css";
-@import "footer.css";
-@import "utilidades.css";
+@import "./header.css";
+@import "./home.css";
+@import "./news.css";
+@import "./testimonials.css";
+@import "./madeby.css";
+@import "./contact.css";
+@import "./parcerias.css";
+@import "./footer.css";
+@import "./utilidades.css";
 
 @font-face {
     font-family: 'OpenDyslexic';
